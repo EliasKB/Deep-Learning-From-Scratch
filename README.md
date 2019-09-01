@@ -5,4 +5,6 @@
 ### Understanding the codes migh requires some understanding of the mathematical terms behind the (back propagation) algorithm.
 #### You need the file "LoadMNIST.m" in your folder to be able to uppload the data and run the code-files.
 #### The data in "mnist_data" is about hand written digits.
-#### To illustrate/see a digit: imshow(reshape(xTrain(:,dataIndex),[28 28])), Where dataIndex= [1, 50000].
+##### To illustrate/see a digit use: 
+##### imshow(reshape(xTrain(:,dataIndex),[28 28]));  
+##### Where dataIndex= [1, 50000].
